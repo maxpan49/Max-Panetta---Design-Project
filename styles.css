@@ -1,0 +1,471 @@
+.hpbody{
+    background-image: url("//th.bing.com/th/id/R.cce80c36e5cea1ed29803831e6e70d2f?rik=q2%2fY0jb6PRh%2f%2bg&riu=http%3a%2f%2fwww.bethq.com%2fsites%2fdefault%2ffiles%2fuploads%2fcamp-nou.jpg&ehk=3BnCGp%2f3nZpZSVVbgNkNjucWYwyNC1CAoB6yf%2fS3YOs%3d&risl=&pid=ImgRaw&r=0.jpg");
+    background-repeat: no-repeat; /*I put these options because my background kept on repeating and it 
+    wouldn't cover the whole page*/
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.homepageh1{
+    border-style: solid;
+    text-decoration: blue underline;
+    background-color: lightgreen;
+    border-color: lightskyblue;
+    border-width: 4px;
+    font-family:'Segoe UI' 'Open Sans' 'Helvetica Neue' sans-serif;
+    font-weight: bolder;
+    font-variant: small-caps;
+    line-height: 50px;
+    margin: -8px 0px 40px 0px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.intro{
+    border-style: solid;
+    border-color: lightskyblue;
+    background-color: lightgreen;
+    border-width: 4px;
+    width: 650px;
+    height: 400px;
+    margin: -55% 0px 0px 100px; /*I put it right in the middle so it's the first thing you see*/
+    font-size: 19px;
+    padding: 0px 3px 0px 3px; /*I made sure that there is clear spacing and it's not too tight*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ballondor{
+    background-image: url("https://i.pinimg.com/originals/29/cd/58/29cd58cf83fc1a1aa3397c4e76636da1.jpg");
+    width: 400px;
+    height: 340px;
+    border: 0px solid black;
+    background-size: 400px 340px;
+    margin: 0px 3px 150px 100px;
+}
+
+.soccerball{
+    background-image: url("https://th.bing.com/th/id/OIP.ajV58whP3ZOfYeOy1YNwfQHaHU?pid=ImgDet&w=458&h=453&rs=1.jpg");
+    width: 270px;
+    height: 300px;
+    border: 2px solid lightskyblue;
+    background-size: 270px 300px;
+    margin: -880px 3px 0px 3px;
+}
+
+.messi{
+    background-image: url("https://lists.ng/wp-content/uploads/2017/04/Screen-Shot-2017-04-24-at-1.40.47-PM.png");
+    width: 270px;
+    height: 350px;
+    border: 2px solid black;
+    background-size: 245px 350px;
+    margin: 23px 3px 0px 3px;
+    line-height: 200px;
+    border-color: lightskyblue;
+}
+
+/*All those images helped make the aesthetic look nicer and filled in empty space. They also go well with
+the background.*/
+
+li a{
+    text-align: center;
+    display: block;
+    width: -100%;
+    height: 100px;
+    padding: 8px 16px;
+    margin: 8px 16px;
+    border-bottom: 1px solid black;
+}
+
+
+
+ul{ 
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 115px;
+    height: 100%;
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+
+/*Those are for my nav bar table. I made it light green so that it blends in with the background and I 
+didn't want to make the border too thick or else it would look ugly. I made sure that there was space 
+between that and my paragraph.*/
+
+li a:hover{
+    background-color: white;
+    color: darkgreen;
+}
+
+/*This makes my links' background color turn white when you hover over them.*/
+
+nav{
+    margin: 8% 0px 0px 91%;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.signup{
+    border: 2px solid black;
+    padding: 8px;
+    background-color: lightgreen;
+    width: 164px;
+    height: 50px;
+    margin: 6% 0px 0px 85%;
+    font-family: Verdana, Tahoma, sans-serif;
+    border-radius: 50%;
+}
+
+/*This is the circle that includes the link to bring you to the form on my sign up page. I made it
+circular instead of square because I found that there were too many boxes on my homepage*/
+
+.information{
+    border: 2px solid black;
+    padding: 4px;
+    width: 500px;
+    height: 500px;
+    background-color: lightskyblue;
+    margin: 20px 0px 0px 350px;
+}
+
+/*I made the form nice and big so that it is easy to read and straight to the point*/
+
+
+.signup a:hover{
+    background-color: white;
+    color: darkgreen /*This is another hover animation*/
+}
+
+
+.signuph1{
+    font-weight: bold;
+    text-decoration: darkgreen underline;
+    color: darkgreen
+}
+
+.practice{
+    background-image: url("https://www.prodirectsoccer.com/productimages/V3_1_Gallery_3/143124.jpg?imwidth=375.jpg");
+    border: 2px solid darkgreen;
+    width: 300px;
+    height: 350px;
+    background-size: 300px 350px;
+    margin: -350px 7px 0px 7px;
+}
+
+.greencleats{
+    background-image: url("https://66.media.tumblr.com/7ddfef3f29d1e0bb059366adc849d790/tumblr_p43pmhRkZD1wk4cnho1_500.jpg");
+    border: 2px solid darkgreen;
+    width: 300px;
+    height: 350px;
+    background-size: 300px 360px;
+    margin: -440px 7px 0px 900px;
+}
+
+form{
+    margin: 0px 0px 0px 0px;
+    color: darkgreen;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.formbody{
+    background-image: url("https://th.bing.com/th/id/OIP.zILuBawT4o5sgmb47hEL4gHaFk?pid=ImgDet&w=680&h=511&rs=1");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; /*Originally, my background was just a solid color but I changed it to this 
+    picture because it looked way more creative*/
+}
+
+.lm10{
+    background-image: url("https://th.bing.com/th/id/R.1bcd5d11280338cf59a62b42984394aa?rik=FLG2jeNBB4bltg&riu=http%3a%2f%2fi.imgur.com%2fNsKt0lK.jpg&ehk=m2hs9zcMfYg7P4EPxjr25ilHWhQv9ipaah5%2fsDAXHjc%3d&risl=&pid=ImgRaw&r=0.jpg");
+}
+
+.cr7{
+    background-image: url("https://www.emirates247.com/polopoly_fs/1.656750.1500980042!/image/image.jpg");
+}
+
+.dm10{
+    background-image: url("https://th.bing.com/th/id/OIP.ZkNapIW2FTdE8hv2WLrGdQHaE8?pid=ImgDet&rs=1");
+}
+
+#img{
+    background-attachment: fixed;
+    background-size: cover;
+    height: 800px;
+    z-index: 1;
+}
+
+.bioplayersleagues{
+    background-color: black;
+    width: 100%;
+    height: auto; /*This helped a lot since it allowed the image to be displayed percetly*/
+}
+
+.bioparagraph{
+    background-color: black;
+    display:inline-block;
+    width: 100%;
+    color: purple;
+    font-weight: bold;
+    font-size: 16px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.playersleaguesrecords{
+    background-color: black;
+}
+
+.threeplayers{
+    background-color: black;
+    font-size: 142px;
+    color: purple;
+    position: absolute;
+    text-shadow: 5px 5px 15px 0px black;
+    font-family: cursive;
+}
+
+.h1players{
+    background-color: black;
+    color: purple;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+/*I made the color and font of the paragraph and the heading with the player's name match so that it 
+doesn't look awkward. Same thing for my "leagues" and "records" pages.*/
+
+
+.premierleague{
+    background-image: url("https://premierleague-static-files.s3.amazonaws.com/premierleague/photo/2018/12/14/0cee605f-961c-4076-bd2d-485b8bf47e73/PL-logo.png")
+}
+
+.seriea{
+    background-image: url("https://www.soccerbible.com/media/99088/1-serie-a-logo-new.jpg");
+}
+
+.laliga{
+    background-image: url("https://www.dlf.pt/png/big/4/41670_la-liga-png.png");
+}
+
+.bundesliga{
+    background-image: url("https://th.bing.com/th/id/OIP.L7dmg7em8cfIgX5ty3-gpgHaGy?pid=ImgDet&rs=1.jpg");
+}
+
+.ligueun{
+    background-image: url("https://3.bp.blogspot.com/-gK_YT-QQmk8/Xu9eIR4IhVI/AAAAAAACdgE/IqaDLL0KSqMWLfu8mp8sZXVc3YoVzNT5ACNcBGAsYHQ/s1600/ligue-1-logo-%25285%2529.png")
+}
+
+a:hover{
+    background-color: white;
+    color: purple;
+}
+
+.bioparagraph2{
+    background-color: black;
+    display:inline-block;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.h1leagues{
+    background-color: black;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.captains{
+    background-color: lightblue;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 15px 0px 0px 100px;
+}
+
+.kickoff{
+    background-color: lightcoral;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: -15px 0px 0px 250px
+}
+
+.subs{
+    background-color: lightgoldenrodyellow;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: -430px 0px 0px 600px;
+}
+
+.goalie{
+    background-color: lightgreen;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: -15px 0px 0px 1000px;
+}
+
+.cards{
+    background-color: lightseagreen;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: -15px 0px 0px 750px;
+}
+
+.offside{
+    background-color: lightskyblue;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: -590px 0px 0px 360px;
+}
+
+.throwins{
+    background-color: lightpink;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: -15px 0px 0px 780px;
+}
+
+.gkandcorners{
+    background-color: lightsalmon;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: -15px 0px 0px 500px;
+}
+
+/*All of those are the little headings for the different set of rules. I like the light colors I chose
+since they match perfectly with the pastel background*/
+
+.bodyrules{ /*This is the pastel background*/
+    background-image: url("https://www.desktopbackground.org/download/1280x1024/2014/07/05/788921_pastel-shapes-desktop-and-mobile-wallpapers-wallippo_2880x1800_h.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.subtitle{ /*I made this a seperate class apart from the other li's because this one is supposed to stand
+    out as it is a subtitle for the category of rules (for example: offsides)*/
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.gkgoals{
+    background-image: url("https://th.bing.com/th/id/R.f2771023bc711248c79cc4009fcb9397?rik=mdU8kTzFQrDHfg&pid=ImgRaw&r=0.jpg");
+}
+
+.goalsandassists{
+    background-image: url("https://pbs.twimg.com/media/CMMiQvwUAAA3jEI.jpg");
+}
+
+.mostgoalsever{
+    background-image: url("https://i.pinimg.com/originals/98/15/9f/98159f11743643aa07e7cf477c77e7c9.jpg");
+}
+
+.uclwins{
+    background-image: url("https://th.bing.com/th/id/R.a864105ed11df2a98ec296d333d39c8b?rik=yDHcjUZN1Rro3Q&riu=http%3a%2f%2fwww.whoateallthepies.tv%2fwp-content%2fuploads%2f2011%2f05%2fPA-1991314.jpg&ehk=eKtVUHD8RizZ7FakoZMKW2LNKlO%2bAeaz0FIfNkHPqnI%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1.jpg");
+}
+
+.attendance{
+    background-image: url("https://www.rioonwatch.org/wp-content/uploads/2014/06/maraca-antigo1.jpg");
+}
+
+.oldestplayer{
+    background-image: url("https://th.bing.com/th/id/OIP.a_ORujsyebGB-i-stlVclgHaEL?pid=ImgDet&rs=1.jpg");
+}
+
+.hattrick{
+    background-image: url("https://th.bing.com/th/id/R.4e68050edbf180b7e9faa4b10bffc2ac?rik=Cyn3al%2fhIOtBgQ&pid=ImgRaw&r=0.jpg");
+}
+
+.mostgoalsyear{
+    background-image: url("https://th.bing.com/th/id/R.a7151e37b0352ad7f5a3618a0f2df6ad?rik=862nueTCSC%2bm4A&riu=http%3a%2f%2fwww2.pictures.zimbio.com%2fgi%2fBarcelona%2bv%2bAC%2bMilan%2bUEFA%2bChampions%2bLeague%2bP262VsvZ8X7l.jpg&ehk=cXdOAMoMSJP8bmZFqOy2TlIxY80bH%2fbmXe%2bQNZMjgIg%3d&risl=&pid=ImgRaw&r=0.jpg");
+}
+
+.wcwins{
+    background-image: url("https://talksport.com/wp-content/uploads/sites/5/2014/06/51529252.jpg?strip=all&w=700&h=420&crop=1.jpg");
+}
+
+.mostexpensivetransfer{
+    background-image: url("https://i.pinimg.com/originals/17/d3/66/17d36683c52340ac919d5c15b00ffa45.jpg")
+}
+
+.hrecordstitle{
+    color: white;
+    font-family:monospace;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 50px;
+}
+
+.hrecords{
+    background-color: black;
+    color: white;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+h2{
+    background-color: black;
+    border: 2px solid black;
+    width: 50%;
+    color: white;
+    margin: 22% 0px 0px 0px
+}
+
+.wch{
+    margin: 0px 0px 0px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: green;
+    background-color: white;
+    border: 0px 
+}
+
+.worldcupbody{
+    background-image: url("https://assets-global.website-files.com/5bfd6f4468ee7943c2d331dd/5fe352dfd3a8476239131f70_43.%20Harvest%20Gold-p-800.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    font-size: 45px;
+}
+
+.pwc{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font: black 25px;
+    margin: 50px 20px 0px 20px;
+    text-align: justify; /*I justified it for it to look cleaner*/
+}
+
+.sat{
+    background-image: url("https://www.meandmysport.co.uk/image/cache/catalog/product/World-Cup-trophy-370x370.jpg"); 
+    height: 300px;
+    width: 400px;
+    float: right;
+    border-radius: 10px;
+    margin: 20px 0px 0px 0px;
+}
+
+.w{
+    background-image: url("https://th.bing.com/th/id/OIP.OGwim9shXbOHMtbEyySW5QHaEK?pid=ImgDet&rs=1.jpg");
+    width: 325px;
+    height: 300px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: 20px 0px 0px 0px;
+}
+
+.gls{
+    background-image: url("https://www.underconsideration.com/brandnew/archives/fifa_world_cup_2022_logo.png");
+    width: 300px; 
+    height: 320px;
+    margin: -100% 185px 0px 150px;
+    border-radius: 50px;
+}
+
+/*These images go perfect with the background, which is why I chose them. It gives a big soccer vibe/* 
